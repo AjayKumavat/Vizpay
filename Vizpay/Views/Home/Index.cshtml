@@ -1,0 +1,642 @@
+﻿@*@{
+        ViewBag.Title = "Home Page";
+    }
+
+    <div class="jumbotron">
+        <h1>ASP.NET</h1>
+        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+        <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Getting started</h2>
+            <p>
+                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+                enables a clean separation of concerns and gives you full control over markup
+                for enjoyable, agile development.
+            </p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Get more libraries</h2>
+            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Web Hosting</h2>
+            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        </div>
+    </div>*@
+
+@*<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400;500;600;700&display=swap" />
+</head>
+<body>*@
+    <div class="parent-container">
+
+        <header class="navbar">
+            <div class="nav">
+                <div class="navbar-vizpay-logo-parent">
+                    <img class="navbar-vizpay-logo-icon"
+                         alt="VizpayLogo"
+                         loading="eager"
+                         src="~/Content/public/navbar-vizpay-logo@2x.png" />
+
+                    @*src="~/Content/public/navbar-vizpay-logo@2x.png" />*@
+
+                    <ul class="home-parent">
+                        <a class="home">Home</a>
+                        <a class="blogs">Products</a>
+                        <a class="blogs">Blogs</a>
+                        <a class="blogs">Resources</a>
+                        <a class="blogs">About Us</a>
+                    </ul>
+                    <ul class="search-parent">
+                        @*<img class="search-icon" alt="Search" src="~/Content/public/search.svg" />*@
+                        <img class="search-icon" alt="Search" src="~/Content/public/search.svg" />
+
+                        <img class="mailbox-icon"
+                             alt="MailBox"
+                             src="~/Content/public/mailbox.svg" />
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section class="herosection" id="HeroSection">
+            <img class="polygonvector-icon"
+                 alt="triangle"
+                 loading="eager"
+                 src="~/Content/public/polygonvectorbluetriangle.svg" />
+
+            <img class="herobgimage-icon"
+                 alt="GroupDiscussion"
+                 loading="eager"
+                 src="~/Content/public/herobgimage@2x.png" />
+
+            <div class="heroheading-parent" id="HeroContent">
+                <h1 class="heroheading" id="HeroHeading">
+                    Innovating Payments Empowering Businesses
+                </h1>
+                <p class="heroquote" id="HeroQuote">
+                    Transform your business with us today. Let’s get Started!
+                </p>
+                <button class="herobutton" id="HeroButton">
+                    <p class="herobtntext">Get in Touch</p>
+                </button>
+            </div>
+            <img class="redcorner-icon"
+                 alt="triangle"
+                 loading="eager"
+                 src="~/Content/public/redcorner.svg" />
+        </section>
+
+
+        <section class="businesses" id="BusinessSection">
+            <div class="business-heading-parent">
+                <h2 class="business-heading">
+                    <span>How we help you grow </span>
+                    <span class="your-business">your business </span>
+                </h2>
+                <div class="frame-parent1">
+                    <div class="bc1-container-parent">
+                        <div class="bc1-container"></div>
+                        <div class="bc1-container"></div>
+                        <div class="bc1-container"></div>
+                        <div class="bc1-container"></div>
+                    </div>
+                    <div class="businesscard1">
+                        <h5 class="bc1-heading">Modular Payment Platform</h5>
+                        <p class="bc1-paragraph">
+                            Unlock Business Growth and Productivity with a Comprehensive,
+                            Open-Architecture Platform as a Solution
+                        </p>
+                        <img class="bc1-icon"
+                             alt="stack"
+                             loading="eager"
+                             src="~/Content/public/stack-icon.svg" />
+                    </div>
+                    <div class="businesscard3">
+                        <img class="bc3-icon"
+                             alt="link"
+                             loading="eager"
+                             src="~/Content/public/link-icon.svg" />
+
+                        <h5 class="bc3-heading">IT Services and Consultancy</h5>
+                        <p class="bc3-paragraph">
+                            In-house tech team with relevant expertise and experience for IT
+                            service solution
+                        </p>
+                    </div>
+                    <div class="businesscard2">
+                        <img class="bc2-icon"
+                             alt="code icon"
+                             loading="eager"
+                             src="~/Content/public/code-icon.svg" />
+
+                        <h5 class="bc2-heading">Custom Development and Integrations</h5>
+                        <p class="bc3-paragraph">
+                            We offer dynamic customisations and can integrate intricate
+                            business logics for optimal operations
+                        </p>
+                    </div>
+                    <div class="bussinesscard4">
+                        <img class="bc4-icon"
+                             alt="network"
+                             loading="eager"
+                             src="~/Content/public/world-icon.svg" />
+
+                        <h5 class="bc4-heading">POS Terminals and IoT Devices</h5>
+                        <p class="bc3-paragraph">
+                            A wide range of payment and non-payment hardware for contactless
+                            and QR payments
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="productssection-heading-parent">
+                <h2 class="e-heading">
+                    <span>Vizpay’s reliable </span>
+                    <span class="your-business">products</span>
+                </h2>
+                <div class="pc1-container-parent">
+                    <div class="pc1-container">
+                        <div class="pc1-container1"></div>
+                        <div class="pc1-image-parent">
+                            <img class="pc1-image-icon"
+                                 alt="Cutting edge"
+                                 loading="lazy"
+                                 src="~/Content/public/pc1-image@2x.png" />
+
+                            <div class="pc1-heading-parent">
+                                <div class="pc1-heading">
+                                    <p class="modular-pre-host-middleware">
+                                        Modular Pre-host Middleware
+                                    </p>
+                                    <div class="dux-parent">
+                                        <b class="dux">DUX</b>
+                                        <span class="f-vizpay-id">Core</span>
+                                    </div>
+                                </div>
+                                <p class="pc1-paragraph">
+                                    <span class="footer-span-paragraph">Comprehensive open architecture middleware platform</span>
+                                    <span class="footer-span-paragraph">
+                                        New-age TMS with support for multiple makes and
+                                        models
+                                    </span>
+                                </p>
+                                <a class="pc1-linkbtn">
+                                    <p class="linkbtn-title">LEARN MORE</p>
+                                    <img class="rightarrow-icon"
+                                         alt="Right Arrow"
+                                         loading="eager"
+                                         src="~/Content/public/rightarrow.svg" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pc1-container">
+                        <div class="pc1-container1"></div>
+                        <img class="pc2-image-icon"
+                             alt="DUX Connect"
+                             loading="lazy"
+                             src="~/Content/public/dux-connect-image@2x.png" />
+
+                        <div class="pc2-heading">
+                            <p class="soundbox-iot">Soundbox & IoT Solution</p>
+                            <div class="dux-group">
+                                <b class="dux">DUX</b>
+                                <span class="f-vizpay-id">Connect</span>
+                            </div>
+                        </div>
+                        <p class="pc3-paragraph">
+                            <span class="footer-span-paragraph">MQTT-based IoT and Soundbox Platform</span>
+                            <span class="footer-span-paragraph">QR generation for easy UPI payments</span>
+                            <span class="footer-span-paragraph">Dynamic QR generation with transaction confirmation</span>
+                            <span class="footer-span-paragraph">Promotional advertorial campaign management</span>
+                        </p>
+                        <a class="pc2-linkbtn" target="_blank">
+                            <p class="linkbtn-title">LEARN MORE</p>
+                            <img class="rightarrow-icon"
+                                 alt="Right Arrow"
+                                 loading="eager"
+                                 src="~/Content/public/rightarrow.svg" />
+                        </a>
+                    </div>
+                    <div class="pc1-container">
+                        <div class="pc1-container1"></div>
+                        <img class="pc2-image-icon"
+                             alt="DUX Play"
+                             loading="lazy"
+                             src="~/Content/public/pc3-dux-play-image@2x.png" />
+
+                        <div class="pc3-heading">
+                            <p class="pos-payment-app">POS Payment App</p>
+                            <div class="dux-container">
+                                <b class="dux">DUX</b>
+                                <span class="f-vizpay-id">Play</span>
+                            </div>
+                        </div>
+                        <p class="pc3-paragraph">
+                            <span class="footer-span-paragraph">Payment Application with customisable UI</span>
+                            <span class="footer-span-paragraph">Dedicated QA/QC and Certification Team</span>
+                            <span class="footer-span-paragraph">Multiple switch routing</span>
+                            <span class="footer-span-paragraph">EMI, BNPL, Wallet Integration</span>
+                        </p>
+                        <a class="pc2-linkbtn" target="_blank">
+                            <p class="linkbtn-title">LEARN MORE</p>
+                            <img class="rightarrow-icon"
+                                 alt="Right Arrow"
+                                 loading="eager"
+                                 src="~/Content/public/rightarrow.svg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ourstory">
+            <img class="os-polygon-bottom-icon"
+                 alt="Polygon"
+                 loading="eager"
+                 src="~/Content/public/os-polygon-bottom.svg" />
+
+            <div class="os-container-parent">
+                <img class="os-container-icon"
+                     alt="Review"
+                     loading="lazy"
+                     src="~/Content/public/os-review-container@2x.png" />
+
+                <div class="os-polygon-parent">
+                    <img class="os-polygon-icon"
+                         alt="Polygon"
+                         loading="eager"
+                         src="~/Content/public/os-polygon.svg" />
+
+                    <div class="os-heading-parent">
+                        <h3 class="os-heading">Our Story</h3>
+                        <p class="os-paragraph">
+                            <span class="footer-span-paragraph">
+                                We are a recognised payment solution provider, trusted by top
+                                Banks and Financial Institutions for their large scale
+                                projects.
+                            </span>
+                            <span class="footer-span-paragraph">&nbsp;</span>
+                            <span class="footer-span-paragraph">
+                                With unwavering dedication and professional approach, we
+                                provide seamless and smooth flowing transactions, along with
+                                deep integration and orchestration logic.
+                            </span>
+                            <span class="footer-span-paragraph">&nbsp;</span>
+                            <span class="footer-span-paragraph">
+                                Our goal towards building solutions and efficient support
+                                makes VizPay the preferred choice in the payments
+                                domain.
+                            </span>
+                        </p>
+                        <a class="os-linkbtn" target="_blank">
+                            <img class="arrow-right-icon1"
+                                 alt="Right Arrow"
+                                 loading="eager"
+                                 src="~/Content/public/arrowright1.svg" />
+
+                            <span class="os-linkbtn-title">KNOW MORE</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="brandpartners">
+            <div class="bp-heading-parent">
+                <h2 class="bp-heading">
+                    <span>Brands that </span>
+                    <span class="a-workplace">Trust Us</span>
+                </h2>
+                <div class="bp-images-container-parent">
+                    <div class="bp-images-container">
+                        <div class="bp1-image-parent">
+                            <img class="bp1-image-icon"
+                                 loading="eager"
+                                 alt=""
+                                 src="~/Content/public/bp1-image@2x.png" />
+
+                            <img class="bp2-image-icon"
+                                 loading="eager"
+                                 alt=""
+                                 src="~/Content/public/bp2-image@2x.png" />
+
+                            <img class="bp3-image-icon"
+                                 loading="eager"
+                                 alt=""
+                                 src="~/Content/public/bp3-image@2x.png" />
+
+                            <img class="bp4-image-icon"
+                                 loading="eager"
+                                 alt=""
+                                 src="~/Content/public/bp4-image@2x.png" />
+
+                            <img class="bp5-image-icon"
+                                 loading="eager"
+                                 alt=""
+                                 src="~/Content/public/bp5-image@2x.png" />
+
+                            <img class="bp6-image-icon"
+                                 loading="eager"
+                                 alt=""
+                                 src="~/Content/public/bp6-image@2x.png" />
+
+                            <img class="bp7-image-icon"
+                                 loading="eager"
+                                 alt=""
+                                 src="~/Content/public/bp7-image@2x.png" />
+                        </div>
+                    </div>
+                    <div class="bp-count1-parent">
+                        <div class="bp-count1">
+                            <b class="bp-count1-desc">
+                                <p class="blank-line">&nbsp;</p>
+                                <p class="proficient-workforce">proficient workforce</p>
+                            </b>
+                            <strong class="bp-count11">150+</strong>
+                        </div>
+                        <div class="bp-count2">
+                            <b class="bp-count2-desc">
+                                <p class="blank-line">&nbsp;</p>
+                                <p class="proficient-workforce">product Engineering Team</p>
+                            </b>
+                            <strong class="bp-count21">75+</strong>
+                        </div>
+                        <div class="bp-count3">
+                            <b class="bp-count3-desc">
+                                <p class="blank-line">&nbsp;</p>
+                                <p class="proficient-workforce">Incorporated in</p>
+                            </b>
+                            <strong class="bp-count31">2013</strong>
+                        </div>
+                        <div class="bp-count4">
+                            <b class="bp-count4-desc">
+                                <p class="blank-line">&nbsp;</p>
+                                <p class="proficient-workforce">
+                                    Devices enabled (POS,ioT,AIDC)
+                                </p>
+                            </b>
+                            <strong class="bp-count41">10,00,000+</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exhibitions">
+            <div class="e-heading-parent">
+                <h2 class="e-heading">
+                    <span>Exhibitions & </span>
+                    <span class="a-workplace">Trade shows</span>
+                </h2>
+                <div class="e-maintab-parent">
+                    <div class="e-maintab">
+                        <div class="e-maintab-inner">
+                            <div class="frame-container">
+                                <div class="t1-title-parent">
+                                    <b class="f-vizpay-id">
+                                        <b>Asia Finance Expo</b>
+                                        <span class="vizpay-business-solution"> </span>
+                                    </b>
+                                    <span class="f-vizpay-id">
+                                        <span class="vizpay-business-solution"> </span>
+                                        <span class="upcoming">Upcoming</span>
+                                    </span>
+                                </div>
+                                <span class="delhi-2024">Delhi, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frame-div">
+                        <div class="e-tab1-parent">
+                            <div class="e-tab1">
+                                <div class="frame-wrapper">
+                                    <div class="frame">
+                                        <p class="e-tab2-title">India Digital Summit</p>
+                                        <span class="e-tab2-span">Mumbai, 2024</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="e-tab1">
+                                <div class="e-tab2-inner">
+                                    <div class="frame">
+                                        <p class="e-tab3-title">Trustech</p>
+                                        <span class="e-tab3-span">Paris, 2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="e-tab3">
+                                <div class="frame-wrapper">
+                                    <div class="frame">
+                                        <p class="e-tab3-title">Global Fintech Festival</p>
+                                        <span class="e-tab3-span">Mumbai, 2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="e-tab4">
+                                <div class="e-tab4-inner">
+                                    <div class="e-tab4-title-parent">
+                                        <p class="e-tab3-title">Seamless</p>
+                                        <span class="e-tab3-span">UAE, 2023</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="e-image-icon"
+                             alt="Exhibition"
+                             loading="eager"
+                             src="~/Content/public/e-image@2x.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="e-image-tabs">
+                <img class="e-image-tabs-child" alt="" src="~/Content/public/line-12.svg" />
+
+                <img class="e-image-tabs-item" alt="" src="~/Content/public/line-13.svg" />
+
+                <img class="e-image-tabs-inner" alt="" src="~/Content/public/line-13.svg" />
+
+                <img class="line-icon" alt="" src="~/Content/public/line-13.svg" />
+            </div>
+            <button class="e-rightarrow-btn">
+                <img class="e-rightarrow-btn-child"
+                     loading="eager"
+                     alt=""
+                     src="~/Content/public/ellipse-3.svg" />
+
+                <img class="chevron-right-icon"
+                     loading="eager"
+                     alt=""
+                     src="~/Content/public/chevronright.svg" />
+            </button>
+        </section>
+
+        <section class="workplace">
+            <img class="w-mainpolygon-icon"
+                 alt="Polygon"
+                 loading="eager"
+                 src="~/Content/public/w-mainpolygon.svg" />
+
+            <h2 class="w-heading">
+                <span>We’re more than just </span>
+                <span class="a-workplace">a Workplace</span>
+            </h2>
+            <div class="w-card-container">
+                <div class="w-card-container1"></div>
+                <img class="w-card-image-icon"
+                     alt="Mentorship"
+                     loading="lazy"
+                     src="~/Content/public/w-card-image@2x.png" />
+
+                <div class="w-card-content-container">
+                    <h4 class="w-card-heading">Not finding the right role for you?</h4>
+                    <p class="w-card-paragraph">
+                        Don't worry! Connect with us, and we'll get back to you
+                    </p>
+                    <a class="w-card-linkbtn" target="_blank">
+                        <img class="arrow-right-icon"
+                             alt="Right Arrow"
+                             loading="eager"
+                             src="~/Content/public/arrowright.svg" />
+
+                        <span class="w-card-linkbtn-title">CAREERS</span>
+                    </a>
+                </div>
+            </div>
+            <div class="w-image2-container">
+                <img class="w-image2-icon"
+                     alt="Workplace"
+                     loading="lazy"
+                     src="~/Content/public/w-image2@2x.png" />
+
+                <span class="w-image2-title">VizPay Premier League 2024</span>
+            </div>
+            <div class="w-image3-container">
+                <video class="w-image3" controls>
+                    <source src="" />
+                </video>
+                <span class="w-image3-title">Festive celebrations</span>
+            </div>
+            <div class="w-image4-container">
+                <img class="w-image4-icon"
+                     alt="Workplace"
+                     loading="lazy"
+                     src="~/Content/public/w-image4@2x.png" />
+
+                <span class="w-image4-title">
+                    Activity trips to exciting locations
+                </span>
+            </div>
+            <div class="w-image5-container">
+                <img class="w-image5-icon"
+                     alt="Workplace"
+                     loading="eager"
+                     src="~/Content/public/w-image5@2x.png" />
+
+                <span class="w-image5-title">
+                    Activity trips to exciting locations
+                </span>
+            </div>
+            <div class="w-image1-container">
+                <img class="w-image1-container-child"
+                     alt="Workplace"
+                     loading="lazy"
+                     src="~/Content/public/rectangle-43@2x.png" />
+
+                <span class="w-image1-title">Office events on special occasions</span>
+            </div>
+        </section>
+
+        <img class="e-left-polygon-icon"
+             alt="polygon"
+             loading="eager"
+             src="~/Content/public/e-left-polygon.svg" />
+
+
+        <img class="products-rightpolygon-icon"
+             alt="polygon"
+             loading="eager"
+             src="~/Content/public/products-rightpolygon.svg" />
+
+        <img class="products-leftpolygon-icon"
+             alt="polygon"
+             loading="eager"
+             src="~/Content/public/products-leftpolygon.svg" />
+
+
+        <footer class="footer">
+            <div class="f-main-container"></div>
+            <div class="f-copyright-container"></div>
+            <span class="copyright">
+                <span>© </span>
+                <span class="vizpay-business-solution">VizPay Business Solution Pvt Ltd</span>
+                <span> 2024</span>
+            </span>
+            <div class="frame-parent">
+                <div class="vizpay-biglogo-parent">
+                    <a class="vizpay-biglogo" href="#HeroSection"> </a>
+                    <div class="vizpay-logo-title-parent">
+                        <b class="vizpay-logo-title">VizPay Business Solution Pvt Ltd</b>
+                        <span class="f-vizpay-id">CIN: U72200MH2013PTC244662</span>
+                    </div>
+                </div>
+                <div class="f-pageslinks">
+                    <div class="f-pl1-parent">
+                        <a class="f-pl1" target="_blank">Products</a>
+                        <a class="f-pl1" target="_blank">Resources</a>
+                        <a class="f-pl1" target="_blank">Blogs</a>
+                        <a class="f-pl1" target="_blank">About</a>
+                        <a class="f-pl1" target="_blank">Terms of use</a>
+                    </div>
+                </div>
+                <div class="f-social-links">
+                    <div class="f-sl3-parent">
+                        <a class="f-pl1" target="_blank">Facebook</a>
+                        <a class="f-pl1" target="_blank">Instagram</a>
+                        <a class="f-pl1" target="_blank">Twitter</a>
+                        <a class="f-pl1" target="_blank">LinkdIn</a>
+                    </div>
+                </div>
+                <div class="frame-group">
+                    <div class="f-a1-heading-parent">
+                        <b class="vizpay-logo-title">Registered Office</b>
+                        <p class="f-a1-text">
+                            <span class="footer-span-paragraph">04, Raheja Centre, Free Press Marg,</span>
+                            <span class="footer-span-paragraph">Nariman Point, Mumbai - 400 021, INDIA</span>
+                        </p>
+                    </div>
+                    <div class="f-a2-heading-parent">
+                        <b class="vizpay-logo-title">Delivery Centre</b>
+                        <p class="f-a1-text">
+                            <span class="footer-span-paragraph">4th Floor, Skyline Arcade, Ghodbunder Road</span>
+                            <span class="footer-span-paragraph">Kapurbawdi, Thane (W) - 400 607, INDIA</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+@*</body>
+</html>*@
